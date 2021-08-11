@@ -5,9 +5,13 @@
  */
 package com.revature;
 
+import com.revature.utilities.ConnectionFactory;
+
 public class Driver {
 
     public static void main (String args[]){
-        // Added a new comment
+
+        ConnectionFactory cf = new ConnectionFactory();
+
     }
 }
